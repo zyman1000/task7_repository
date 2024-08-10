@@ -141,4 +141,4 @@ after entering the password which was invisible while it was being typed for som
 
 **bonus**: `neofetch` :)
 
-**output**: ![screenshot](https://drive.google.com/file/d/1PcUA4kGz-lAJ4625Vvzt9o19K_OOS25s/view?usp=sharing)
+**output**: https://drive.google.com/file/d/1PcUA4kGz-lAJ4625Vvzt9o19K_OOS25s/view?usp=sharing
