@@ -25,18 +25,23 @@ command: `nano bash_script.sh`
 output: text editor pops up
 
 after writing this to the file:
+
 `#!/bin/bash`
+
 `pwd`
+
 I press CTRL + X then y then enter to exit
 
 command: `./bash_script.sh`
 
 output: `bash: ./bash_script.sh: Permission denied`
+
 solution: adding execution permission to the bash file
 
 command: `chmod +x bash_script.sh`
 
 after that: `./bash_script.sh`
+
 output: `/home/dell/Desktop`
 
 command: `mkdir scripts`
@@ -54,7 +59,9 @@ output: the bash script is removed from the desktop
 command: `cat scripts/bash_script.sh`
 
 output:
+
 `#!/bin/bash`
+
 `pwd`
 
 command: `mv scripts premade_folder`
@@ -64,16 +71,23 @@ output: moves the folder "scripts" to a folder called "premade_folder"
 command: `htop`
 
 output:
+
     Command 'htop' not found, but can be installed with:
+
     sudo snap install htop  # version 3.3.0, or
+
     sudo apt  install htop  # version 3.0.5-7build2
+
     See 'snap info htop' for additional versions.'
+
 solution: `sudo apt install htop`
+
 now htop is installed
 
 command: `htop`
 
 output: a simple task manager appears
+
 CTRL + C to exit
 
 command: `top`
