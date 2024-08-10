@@ -1,28 +1,28 @@
 ### after opening the terminal using CTRL + Alt + t
 
-command:`pwd`
+**command**:`pwd`
 
-output: `/home/dell`
+**output**: `/home/dell`
 this prints the current working directory
 
-command: `ls`
+**command**: `ls`
 
-output: `Arduino  Documents  Fluent-gtk-theme  Pictures  snap       Videos
+**output**: `Arduino  Documents  Fluent-gtk-theme  Pictures  snap       Videos
 Desktop  Downloads  kora              OBS    Public    Templates`
 
 note: extra content appears in the list because this is a personal machine not a freshly installed experimental environment
 
-command: `cd Desktop`
+**command**: `cd Desktop`
 
 this changes the current working directory to desktop
 
-command: `touch bash_script.sh`
+**command**: `touch bash_script.sh`
 
-output: a file named "bash_script.sh" has been created in the desktop
+**output**: a file named "bash_script.sh" has been created in the desktop
 
-command: `nano bash_script.sh`
+**command**: `nano bash_script.sh`
 
-output: text editor pops up
+**output**: text editor pops up
 
 after writing this to the file:
 
@@ -32,45 +32,45 @@ after writing this to the file:
 
 I press CTRL + X then y then enter to exit
 
-command: `./bash_script.sh`
+**command**: `./bash_script.sh`
 
-output: `bash: ./bash_script.sh: Permission denied`
+**output**: `bash: ./bash_script.sh: Permission denied`
 
-solution: adding execution permission to the bash file
+**solution**: adding execution permission to the bash file
 
-command: `chmod +x bash_script.sh`
+**command**: `chmod +x bash_script.sh`
 
 after that: `./bash_script.sh`
 
-output: `/home/dell/Desktop`
+**output**: `/home/dell/Desktop`
 
-command: `mkdir scripts`
+**command**: `mkdir scripts`
 
-output: a folder named "scripts" is created on the desktop
+**output**: a folder named "scripts" is created on the desktop
 
-command: `cp bash_script.sh scripts`
+**command**: `cp bash_script.sh scripts`
 
-output: the bash script is copied to the scripts folder
+**output**: the bash script is copied to the scripts folder
 
-command: `rm bash_script.sh`
+**command**: `rm bash_script.sh`
 
-output: the bash script is removed from the desktop
+**output**: the bash script is removed from the desktop
 
-command: `cat scripts/bash_script.sh`
+**command**: `cat scripts/bash_script.sh`
 
-output:
+**output**:
 
 `#!/bin/bash`
 
 `pwd`
 
-command: `mv scripts premade_folder`
+**command**: `mv scripts premade_folder`
 
-output: moves the folder "scripts" to a folder called "premade_folder"
+**output**: moves the folder "scripts" to a folder called "premade_folder"
 
-command: `htop`
+**command**: `htop`
 
-output:
+**output**:
 
     Command 'htop' not found, but can be installed with:
 
@@ -80,33 +80,33 @@ output:
 
     See 'snap info htop' for additional versions.'
 
-solution: `sudo apt install htop`
+**solution**: `sudo apt install htop`
 
 now htop is installed
 
-command: `htop`
+**command**: `htop`
 
-output: a simple task manager appears
+**output**: a simple task manager appears
 
 CTRL + C to exit
 
-command: `top`
+**command**: `top`
 
-output: a simpler task manager appears
+**output**: a simpler task manager appears
 
 using a new tab in the terminal we take the PID of top which is 18480 in this case
 
-command: `kill 18480`
+**command**: `kill 18480`
 
-output: the process of "top" stopped
+**output**: the process of "top" stopped
 
-command: `cd ~`
+**command**: `cd ~`
 
-output: now we are in the home directory
+**output**: now we are in the home directory
 
 ### now, we will use SSH
 
-command: `ssh bandit0@bandit.labs.overthewire.org -p 2220`
+**command**: `ssh bandit0@bandit.labs.overthewire.org -p 2220`
 
 after typing `yes` the output is: 
 
@@ -125,18 +125,18 @@ warning: Permanently added '[bandit.labs.overthewire.org]:2220'
 bandit0@bandit.labs.overthewire.org's password: 
 
 after entering the password which was invisible while it was being typed for some reason
-output: got greated by overthewire.org
+**output**: got greeted by overthewire.org
 
-command: `whoami`
+**command**: `whoami`
 
-output: `bandit0`
+**output**: `bandit0`
 
-command: `exit`
+**command**: `exit`
 
-output: connection to the site was closed
+**output**: connection to the site was closed
 
-command: `ls | grep Desk`
+**command**: `ls | grep Desk`
 
-output: `Desktop` where "desk" was red
+**output**: `Desktop` where "desk" was red
 
-bonus: `neofetch` :)
+**bonus**: `neofetch` :)
